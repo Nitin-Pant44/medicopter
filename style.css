@@ -45,6 +45,9 @@ p {
 	color: crimson;
 }
 
+.large-text {
+    font-size: 20px; /* Adjust the font size as needed */
+}
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
