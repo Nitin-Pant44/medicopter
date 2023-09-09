@@ -275,6 +275,7 @@ flex-direction: column;
 	margin: 0 auto;
 	padding: 100px 0;
 }
+  
 #description .description-top {
 	max-width: 500px;
 	margin: 0 auto;
@@ -301,6 +302,11 @@ flex-direction: column;
 	z-index: 1;
 	overflow: hidden;
 }
+.medium-text {
+	overflow: hidden; /* Hide any text that overflows the container */
+	text-overflow: ellipsis; /* Optionally add ellipsis (...) to indicate truncated text */
+  }
+  
 #description .description-item::after {
 	content: '';
 	position: absolute;
@@ -410,6 +416,7 @@ flex-direction: column;
 	margin: 0 auto;
 	padding: 100px 20px;
 }
+  
 #about .about-header h1 {
 	margin-bottom: 50px;
 }
